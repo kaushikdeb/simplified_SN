@@ -25,10 +25,10 @@ Design
 
 Step 1
 ----
-Design DB tables
-Implement following Incident Management API:
-POST /api/incidents: Create a new incident.
-GET /api/incidents: Retrieve a list of incidents (with optional filtering, sorting, pagination).
-GET /api/incidents/{id}: Retrieve a specific incident by ID.
-PUT /api/incidents/{id}: Update an existing incident.
-DELETE /api/incidents/{id}: Delete an incident.
+* Design DB tables
+* Implement following Incident Management API:
+* `POST /api/incidents`: Create a new incident.
+* `GET /api/incidents`: Retrieve a list of incidents (with optional filtering, sorting, pagination).
+* `GET /api/incidents/{id}`: Retrieve a specific incident by ID.
+* `PUT /api/incidents/{id}`: Update an existing incident.
+* `DELETE /api/incidents/{id}`: Delete an incident.
