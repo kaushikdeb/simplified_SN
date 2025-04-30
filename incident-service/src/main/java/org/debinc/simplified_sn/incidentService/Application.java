@@ -1,13 +1,11 @@
-package org.debinc.simplified_sn;
+package org.debinc.simplified_sn.incidentService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SimplifiedSnApplication {
-
+public class Application{
 	public static void main(String[] args) {
-		SpringApplication.run(SimplifiedSnApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
-
 }
