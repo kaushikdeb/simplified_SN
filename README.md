@@ -32,3 +32,14 @@ Step 1
 * `GET /api/incidents/{id}`: Retrieve a specific incident by ID.
 * `PUT /api/incidents/{id}`: Update an existing incident.
 * `DELETE /api/incidents/{id}`: Delete an incident.
+
+Setup
+----
+* Install docker
+* Run local database using docker-compose:
+```docker-compose up -d```
+* Create table and load sample data:
+```
+docker exec -i local_postgres psql -U myuser -d mydb < init.sql
+docker exec -i local_postgres psql -U myuser -d mydb < data.sql
+```
